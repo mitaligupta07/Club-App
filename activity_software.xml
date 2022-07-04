@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Software"
+    android:background="#0B0B0B"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/download" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="129dp">
+
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/dsc1" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="213dp"
+            android:layout_height="70dp"
+            android:background="#E91E63"
+            android:text="Student Development Club"
+            android:textColor="#F9F8FA"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:text="Faculty Incharge: "
+        android:textSize="30sp"
+        android:textColor="#F9F8FA"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:text="Student Coordinator"
+        android:textSize="30sp"
+        android:textColor="#F9F8FA"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:text="The Club regularly conducts different workshops and arranges hackathons which are benefecial for the students"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="CREDITS OFFERED: 1 CREDIT"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:text="CLUB REGISTERATION FEES: 200 RUPEES"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="221dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button1"
+        android:text="BACK"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>

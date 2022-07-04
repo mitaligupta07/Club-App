@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B0A0B"
+    tools:context=".ekfrasisInfo">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        app:srcCompat="@drawable/download"
+        tools:layout_editor_absoluteX="-20dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="168dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="179dp"
+            android:layout_height="161dp"
+            app:srcCompat="@drawable/ekfrasis" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="235dp"
+            android:layout_height="87dp"
+            android:background="#E91E63"
+            android:text="EKFRASIS: THE DRAMA CLUB"
+            android:textColor="#0C0C0C"
+            android:textSize="30sp" />
+
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:text="Faculty Coordinator: Dr Akshara Makariya" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:text="Student Coordinator: Mihir, Stuti and Arsh"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:text="The Drama Club was inaugrated back in 2017 and till now the club has organised many events and is the active club of VIT where young actors are given a full chance to explore themselves."
+        android:textColor="#FCFBFD"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="CREDITS ALLOTED:1 CREDIT"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="CLUB REGISTRATION FEE: 200 Rupees"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="154dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button1"
+        android:text="Back"
+        android:textSize="30sp" />
+
+
+</LinearLayout>

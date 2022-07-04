@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090909"
+    android:orientation="vertical"
+    tools:context=".nss">
+
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/download" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="167dp">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="204dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/nss" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="204dp"
+            android:layout_height="73dp"
+            android:text="NSS"
+            android:gravity="center"
+            android:textColor="#FDFCFD"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Faculty Coordinator: Prof Sharad Chandra Tripathi"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Student Coordinator: "
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:text="The Club believes in providing service to the community and encourages the students to work for the welfare of the needy people"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+         />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREDIS OFFERED: 1 CREDIT"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CLUB REGISTERATION FEES: 200 RUPEES"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="176dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button1"
+        android:text="BACK"
+        android:textSize="20sp" />
+</LinearLayout>

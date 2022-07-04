@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#0E0E0E"
+    android:layout_height="match_parent"
+    tools:context=".splash">
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="match_parent"
+        android:layout_height="246dp"
+        android:text="" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="332dp"
+        android:layout_height="123dp"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/download"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="304dp"
+        android:layout_height="108dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="THE STUDENT CLUB APP!!!"
+        android:textColor="#FBFBFB"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+</LinearLayout>
